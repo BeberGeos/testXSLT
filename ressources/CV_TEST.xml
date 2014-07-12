@@ -1,0 +1,72 @@
+<?xml-stylesheet type="text/xsl" href="CV.xsl">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:cv xmlns:ns2="http://www.example.org/schemaCV">
+    <identite>
+        <nom>Dorian</nom>
+        <prenom>Arno</prenom>
+        <adresse>
+            <rue>rue de larue</rue>
+            <codePostal>12345</codePostal>
+            <ville>Paris</ville>
+        </adresse>
+    </identite>
+    <fonction>
+        <titre>Analyste développeur Java Jee</titre>
+        <anneeExperience>2</anneeExperience>
+    </fonction>
+    <competenceTechnique>
+        <competence>
+            <titreCompetence>Développement</titreCompetence>
+            <categorie>
+                <titreCategorie>langage</titreCategorie>
+                <libelleCategorie>java</libelleCategorie>
+                <libelleCategorie>JavaScript</libelleCategorie>
+                <libelleCategorie>ANT</libelleCategorie>
+                <libelleCategorie>JQuery</libelleCategorie>
+                <libelleCategorie>PHP</libelleCategorie>
+                <libelleCategorie>PLSQL</libelleCategorie>
+            </categorie>
+            <categorie>
+                <titreCategorie>librairie</titreCategorie>
+                <libelleCategorie>JMEter</libelleCategorie>
+                <libelleCategorie>Junit</libelleCategorie>
+            </categorie>
+        </competence>
+        <competence>
+            <titreCompetence>Serveur application</titreCompetence>
+            <categorie>
+                <titreCategorie></titreCategorie>
+                <libelleCategorie>glassfish</libelleCategorie>
+                <libelleCategorie>TOMCAT</libelleCategorie>
+            </categorie>
+        </competence>
+    </competenceTechnique>
+    <competenceFonctionnelle>
+        <competence>
+            <titreCompetence></titreCompetence>
+            <categorie>
+                <titreCategorie></titreCategorie>
+                <libelleCategorie>Gestion et suivi de projet</libelleCategorie>
+                <libelleCategorie>méthode AGILE</libelleCategorie>
+            </categorie>
+            <categorie>
+                <titreCategorie></titreCategorie>
+                <libelleCategorie>Analyse</libelleCategorie>
+                <libelleCategorie>conception</libelleCategorie>
+            </categorie>
+        </competence>
+    </competenceFonctionnelle>
+    <experience>
+        <client>AC</client>
+        <localisation>Paris (75)</localisation>
+        <dateDebut>2014-07-12+02:00</dateDebut>
+        <dateFin>2014-07-12+02:00</dateFin>
+        <description>fvbksdhvkjkvkjdbvjksdbvjksbdjkvbdskbvhuigiskjsbvjsbdvsbdivbisdbvsbdvbd</description>
+        <pileLogiciel>java JDK 1.7</pileLogiciel>
+        <pileLogiciel>SVN</pileLogiciel>
+        <pileLogiciel>MAVEN</pileLogiciel>
+        <pileLogiciel>SQLDEVELOER</pileLogiciel>
+        <pileLogiciel>ORACLE 10g</pileLogiciel>
+        <pileLogiciel>JQuery</pileLogiciel>
+    </experience>
+</ns2:cv>
