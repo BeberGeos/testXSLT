@@ -18,7 +18,7 @@
             <head>
                 <title>CV de&#160;<xsl:value-of select="identite/prenom"/>&#160;<xsl:value-of select="identite/nom"/></title>
 
-                <link rel="stylesheet" href="css.css"/>
+                <link rel="stylesheet" href="css/css.css"/>
             </head>
             <body>
                 <div id="container">

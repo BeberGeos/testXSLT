@@ -43,7 +43,7 @@ public class Appli {
 
 
     private final static String CHEMIN_FICHIER_GENERE = "ressources\\CV_"+NOM+"_"+PRENOM+"_"+dateJourFormat+".xml";
-    private final static String CHEMIN_SCHEMA ="ressources\\schemaCV.xsd";
+    private final static String CHEMIN_SCHEMA ="ressources\\xsd\\schemaCV.xsd";
 
     public static void main(String[] args) {
         final Cv cvUtilisateur = objectFactory.createCv();
@@ -90,7 +90,7 @@ public class Appli {
             final Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
 
             final FileWriter writer = new FileWriter(CHEMIN_FICHIER_GENERE);
-            writer.write("<?xml-stylesheet type=\"text/xsl\" href=\"CV.xsl\">");
+            writer.write("<?xml-stylesheet type=\"text/xsl\" href=\"xsl\\CV.xsl\">");
             writer.write("\n");
             
             final File fileSchema = new File(CHEMIN_SCHEMA);
