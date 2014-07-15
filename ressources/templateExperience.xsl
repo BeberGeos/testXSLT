@@ -18,9 +18,11 @@
             </div>
             <div class="experience">
                 <div class="presentation">
-                    <p>
-                        <xsl:value-of select="description" disable-output-escaping="yes"/>
-                    </p>
+                    <xsl:for-each select="description">
+                        <p>
+                            <xsl:value-of select="." disable-output-escaping="yes"/>
+                        </p>
+                    </xsl:for-each>
                 </div>
                 <div class="technique">
                         <xsl:for-each select="pileLogiciel">

@@ -60,18 +60,24 @@
     		<element name="localisation" type="string" maxOccurs="1"
     			minOccurs="1">
     		</element>
-    		<element name="dateDebut" type="date" maxOccurs="1"
+    		<element name="dateDebut" type="tns:dateFormat" maxOccurs="1"
     			minOccurs="1">
     		</element>
-    		<element name="dateFin" type="date" maxOccurs="1"
+    		<element name="dateFin" type="tns:dateFormat" maxOccurs="1"
     			minOccurs="1">
     		</element>
-    		<element name="description" type="string" maxOccurs="1"
+    		<element name="description" type="string" maxOccurs="unbounded"
     			minOccurs="1">
     		</element>
     		<element name="pileLogiciel" type="string" maxOccurs="unbounded" minOccurs="1"></element>
     	</sequence>
     </complexType>
+
+    <simpleType name="dateFormat">
+        <restriction base="string">
+            <pattern value="(0[1-9]|[1,2]\d|3[0,1])/(0[1-9]|1[0-2])/(\d{4})"/>
+        </restriction>
+    </simpleType>
 
 	<element name="cv">
     <complexType>

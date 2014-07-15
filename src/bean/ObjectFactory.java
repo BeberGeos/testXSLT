@@ -37,7 +37,7 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link Cv }
+     * Create an instance of {@link bean.Cv }
      * 
      */
     public Cv createCv() {
@@ -45,7 +45,7 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link IdentiteType }
+     * Create an instance of {@link bean.IdentiteType }
      * 
      */
     public IdentiteType createIdentiteType() {
@@ -53,7 +53,7 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link FonctionType }
+     * Create an instance of {@link bean.FonctionType }
      * 
      */
     public FonctionType createFonctionType() {
@@ -61,7 +61,7 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link CompetenceType }
+     * Create an instance of {@link bean.CompetenceType }
      * 
      */
     public CompetenceType createCompetenceType() {
@@ -69,7 +69,7 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link ExperienceType }
+     * Create an instance of {@link bean.ExperienceType }
      * 
      */
     public ExperienceType createExperienceType() {
@@ -77,7 +77,7 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link CompetenceDetailType }
+     * Create an instance of {@link bean.CompetenceDetailType }
      * 
      */
     public CompetenceDetailType createCompetenceDetailType() {
@@ -85,7 +85,7 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link CategorieType }
+     * Create an instance of {@link bean.CategorieType }
      * 
      */
     public CategorieType createCategorieType() {
@@ -93,7 +93,7 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link AdresseType }
+     * Create an instance of {@link bean.AdresseType }
      * 
      */
     public AdresseType createAdresseType() {

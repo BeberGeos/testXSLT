@@ -23,6 +23,12 @@
             <body>
                 <div id="container">
                     <div id="header">
+                    <div id="logo">
+                        <img alt="logo Néo Soft" src="image/Logo Neo-soft.png" width="154" height="88"
+                             id="logo_NeoSoft"></img>
+                        <img alt="Label Luci Néo-soft" src="image/Label Lucie.png" width="294" height="45"
+                             id="logo_labelLucie"></img>
+                    </div>
                         <div id="titreFonction">
                             <p class="fonction">
                                 <xsl:value-of select="fonction/titre"/>

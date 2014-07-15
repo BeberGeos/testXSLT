@@ -62,7 +62,7 @@ public class CompetenceType {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link CompetenceDetailType }
+     * {@link bean.CompetenceDetailType }
      * 
      * 
      */

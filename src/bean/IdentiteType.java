@@ -103,7 +103,7 @@ public class IdentiteType {
      * 
      * @return
      *     possible object is
-     *     {@link AdresseType }
+     *     {@link bean.AdresseType }
      *     
      */
     public AdresseType getAdresse() {
@@ -115,7 +115,7 @@ public class IdentiteType {
      * 
      * @param value
      *     allowed object is
-     *     {@link AdresseType }
+     *     {@link bean.AdresseType }
      *     
      */
     public void setAdresse(AdresseType value) {

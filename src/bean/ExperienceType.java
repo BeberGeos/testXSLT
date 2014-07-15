@@ -17,7 +17,10 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
+import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import javax.xml.datatype.XMLGregorianCalendar;
+
+import utils.DateAdapter;
 
 
 /**
@@ -60,13 +63,15 @@ public class ExperienceType {
     @XmlElement(required = true)
     protected String localisation;
     @XmlElement(required = true)
-    @XmlSchemaType(name = "date")
+    @XmlSchemaType(name = "string")
+    @XmlJavaTypeAdapter(DateAdapter.class)
     protected Date dateDebut;
     @XmlElement(required = true)
-    @XmlSchemaType(name = "date")
+    @XmlSchemaType(name = "string")
+    @XmlJavaTypeAdapter(DateAdapter.class)
     protected Date dateFin;
     @XmlElement(required = true)
-    protected String description;
+    protected List<String> description;
     @XmlElement(required = true)
     protected List<String> pileLogiciel;
 
@@ -123,7 +128,7 @@ public class ExperienceType {
      * 
      * @return
      *     possible object is
-     *     {@link Date }
+     *     {@link java.util.Date }
      *     
      */
     public Date getDateDebut() {
@@ -135,7 +140,7 @@ public class ExperienceType {
      * 
      * @param value
      *     allowed object is
-     *     {@link Date }
+     *     {@link java.util.Date }
      *     
      */
     public void setDateDebut(Date value) {
@@ -147,7 +152,7 @@ public class ExperienceType {
      * 
      * @return
      *     possible object is
-     *     {@link XMLGregorianCalendar }
+     *     {@link javax.xml.datatype.XMLGregorianCalendar }
      *     
      */
     public Date getDateFin() {
@@ -159,7 +164,7 @@ public class ExperienceType {
      * 
      * @param value
      *     allowed object is
-     *     {@link Date }
+     *     {@link java.util.Date }
      *     
      */
     public void setDateFin(Date value) {
@@ -171,23 +176,14 @@ public class ExperienceType {
      * 
      * @return
      *     possible object is
-     *     {@link String }
+     *     {@link java.util.List<String> }
      *     
      */
-    public String getDescription() {
+    public List<String> getDescription() {
+        if (description == null) {
+            description = new ArrayList<String>();
+        }
         return description;
-    }
-
-    /**
-     * Sets the value of the description property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setDescription(String value) {
-        this.description = value;
     }
 
     /**

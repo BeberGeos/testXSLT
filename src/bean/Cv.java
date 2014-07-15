@@ -67,7 +67,7 @@ public class Cv {
      * 
      * @return
      *     possible object is
-     *     {@link IdentiteType }
+     *     {@link bean.IdentiteType }
      *     
      */
     public IdentiteType getIdentite() {
@@ -79,7 +79,7 @@ public class Cv {
      * 
      * @param value
      *     allowed object is
-     *     {@link IdentiteType }
+     *     {@link bean.IdentiteType }
      *     
      */
     public void setIdentite(IdentiteType value) {
@@ -91,7 +91,7 @@ public class Cv {
      * 
      * @return
      *     possible object is
-     *     {@link FonctionType }
+     *     {@link bean.FonctionType }
      *     
      */
     public FonctionType getFonction() {
@@ -103,7 +103,7 @@ public class Cv {
      * 
      * @param value
      *     allowed object is
-     *     {@link FonctionType }
+     *     {@link bean.FonctionType }
      *     
      */
     public void setFonction(FonctionType value) {
@@ -115,7 +115,7 @@ public class Cv {
      * 
      * @return
      *     possible object is
-     *     {@link CompetenceType }
+     *     {@link bean.CompetenceType }
      *     
      */
     public CompetenceType getCompetenceTechnique() {
@@ -127,7 +127,7 @@ public class Cv {
      * 
      * @param value
      *     allowed object is
-     *     {@link CompetenceType }
+     *     {@link bean.CompetenceType }
      *     
      */
     public void setCompetenceTechnique(CompetenceType value) {
@@ -139,7 +139,7 @@ public class Cv {
      * 
      * @return
      *     possible object is
-     *     {@link CompetenceType }
+     *     {@link bean.CompetenceType }
      *     
      */
     public CompetenceType getCompetenceFonctionnelle() {
@@ -151,7 +151,7 @@ public class Cv {
      * 
      * @param value
      *     allowed object is
-     *     {@link CompetenceType }
+     *     {@link bean.CompetenceType }
      *     
      */
     public void setCompetenceFonctionnelle(CompetenceType value) {
@@ -176,7 +176,7 @@ public class Cv {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link ExperienceType }
+     * {@link bean.ExperienceType }
      * 
      * 
      */

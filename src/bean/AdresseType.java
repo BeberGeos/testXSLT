@@ -59,7 +59,7 @@ public class AdresseType {
      * 
      * @return
      *     possible object is
-     *     {@link BigInteger }
+     *     {@link java.math.BigInteger }
      *     
      */
     public BigInteger getNumero() {
@@ -71,7 +71,7 @@ public class AdresseType {
      * 
      * @param value
      *     allowed object is
-     *     {@link BigInteger }
+     *     {@link java.math.BigInteger }
      *     
      */
     public void setNumero(BigInteger value) {
